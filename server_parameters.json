@@ -1,0 +1,14 @@
+[
+		{
+			"ParameterKey": "EnvironmentName",
+			"ParameterValue": "Udagram"
+		},
+		{
+			"ParameterKey": "WebServerAMI",
+			"ParameterValue": "ami-0ac73f33a1888c64a"
+		},
+		{
+			"ParameterKey": "WebServerInstanceType",
+			"ParameterValue": "t3.medium"
+		}
+]
