@@ -30,7 +30,7 @@ To update the already existing infrastructure stack run one (or all) the followi
 
 `./update.sh network network.yml network_parameters.json`
 
-`./update.sh bastion-hosts bastion_hosts.yml bastion_hosts_parameters.json`
+`./update.sh bastionhosts bastion_hosts.yml bastion_hosts_parameters.json`
 
 `./update.sh server server.yml server_parameters.json`
 
@@ -39,7 +39,7 @@ To delete the infrastructure stack run the following commands in the same order 
 
 `./delete.sh server`
 
-`./delete.sh bastion_hosts`
+`./delete.sh bastionhosts`
 
 `./delete.sh network`
 
