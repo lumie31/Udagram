@@ -193,10 +193,6 @@ Outputs:
 
   WebAppLB:
     Description: The public URL of web application. 
-    Value: 
-      !Join
-        - ''
-        - - 'http://'
-          - !GetAtt WebAppLB.DNSName
+    Value: !Join ["", ['http://', !GetAtt WebAppLB.DNSName]]
     Export:
       Name: !Sub ${EnvironmentName}-WEB-APP-URL
