@@ -1,5 +1,8 @@
 # <b>UDAGRAM</b> - Deploy a high-availability web app using CloudFormation
 
+## URL to the website
+http://serve-webap-fmqwb8fdo72i-1675892840.us-west-2.elb.amazonaws.com/
+
 ## Scenario
 Your company is creating an Instagram clone called Udagram. Developers pushed the latest version of their code in a zip file located in a public S3 Bucket.
 
@@ -15,7 +18,7 @@ To create the infrastructure stack run the following commands in the same order 
 
 `./create.sh network network.yml network_parameters.json`
 
-`./create.sh bastion_hosts bastion_hosts.yml bastion_hosts_parameters.json`
+`./create.sh bastionhosts bastion_hosts.yml bastion_hosts_parameters.json`
 
 `./create.sh server server.yml server_parameters.json`
 
@@ -27,7 +30,7 @@ To update the already existing infrastructure stack run one (or all) the followi
 
 `./update.sh network network.yml network_parameters.json`
 
-`./update.sh bastion_hosts bastion_hosts.yml bastion_hosts_parameters.json`
+`./update.sh bastion-hosts bastion_hosts.yml bastion_hosts_parameters.json`
 
 `./update.sh server server.yml server_parameters.json`
 
